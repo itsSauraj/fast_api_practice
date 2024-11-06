@@ -1,0 +1,72 @@
+# Ignore test folder
+SQLAlchemy
+
+# Ignore database files
+*.db
+**/*.db
+
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
+.env/
+**/venv/
+**/env/
+**/.venv/
+**/.env/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+
+# Ignore FastAPI specific files
+*.log
+*.pid
+*.seed
+*.cover
+*.orig
+*.rej
+*.swo
+*.swp
+*.swn
+*.swm
+*.bak
+*.tmp
+*.temp
+*.old
+*.backup
+*.cache
+*.dist-info/
+*.egg-info/
+**/*.log
+**/*.pid
+**/*.seed
+**/*.cover
+**/*.orig
+**/*.rej
+**/*.swo
+**/*.swp
+**/*.swn
+**/*.swm
+**/*.bak
+**/*.tmp
+**/*.temp
+**/*.old
+**/*.backup
+**/*.cache
+**/*.dist-info/
+**/*.egg-info/
+
+# Ignore code editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+**/.vscode/
+**/.idea/
+**/*.sublime-project
+**/*.sublime-workspace

@@ -1,0 +1,122 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+form,
+div#draggable{
+  filter: drop-shadow(0 0 2em rgba(51, 241, 255, 0.3));
+  z-index: -10;
+  padding: 50px;
+  border-radius: 12px;
+}
+
+.glass{
+  background: rgba( 255, 255, 255, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba(116, 116, 116, 0.37);
+  backdrop-filter: blur( 12.5px );
+  -webkit-backdrop-filter: blur( 5.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  animation: fadeIn 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.inputFields{
+  padding: 7px 10px;
+  border-radius: 7px;
+  font-size: large;
+  transition: all 300ms ease-in-out;
+  border: 3px solid transparent;
+  width: 300px;
+  background: rgba(0, 0, 0, 0.377);
+  color: rgb(255, 255, 255);
+}
+
+.inputFields::placeholder{
+  font-size: large;
+  color: #c4dadb;
+}
+
+.inputFields:focus{
+  border: 3px solid #19d5e2;
+  outline: none;
+}
+
+.inputFields:hover{
+  border: 3px solid #c4dadb;
+  outline: none;
+}
+
+form > button{
+  transition: all 300ms ease-in-out;
+  border: 3px solid transparent;
+}
+form > button:hover{
+  border: 3px solid #19d5e2;
+}
+
+.draggable{
+  padding: 10px 20px;
+}
+
+.cursor_move {
+  cursor: move;
+}
+
+.card{
+  display: flex;
+  flex-direction: row;
+}
+
+.card > button{
+  width: max-content;
+}
