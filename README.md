@@ -24,7 +24,7 @@ A simple React app is included in this project. Please note that this React app 
 
 1. Clone the repository:
   ```bash
-  git clone https://github.com/yourusername/fastapi-small-project.git
+  git clone https://github.com/itsSauraj/fast_api_practice.git
   ```
 2. Navigate to the project directory:
   ```bash
