@@ -28,7 +28,7 @@ A simple React app is included in this project. Please note that this React app 
   ```
 2. Navigate to the project directory:
   ```bash
-  cd fastapi-small-project
+  cd fast_api_practice
   ```
 3. Install the required Python packages:
   ```bash
