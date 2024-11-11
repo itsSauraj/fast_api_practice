@@ -28,9 +28,18 @@ A simple React app is included in this project. Please note that this React app 
   ```
 2. Navigate to the project directory:
   ```bash
-  cd fast_api_practice
+  cd fast_api_practice/cors_be
   ```
-3. Install the required Python packages:
+3. Create virtual env
+  ```bash
+  python -m venv venv
+  ```
+4. Activate virtual environment
+  ```bash
+  source /venv/bin/activate #on linux and mac
+  ./venv/bin/activate #on windows
+  ```
+5. Install the required Python packages:
   ```bash
   pip install -r requirements.txt
   ```
@@ -40,6 +49,10 @@ A simple React app is included in this project. Please note that this React app 
 Start the FastAPI server with the following command:
 ```bash
 uvicorn main:app --reload
+```
+or
+```
+fastapi run dev
 ```
 
 You can view and test the APIs by navigating to `/docs` in your browser:
